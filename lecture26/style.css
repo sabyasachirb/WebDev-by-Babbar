@@ -1,0 +1,131 @@
+#navlist{
+    list-style: none;
+    display: flex;
+    /* /* padding-right: 20px; */
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size:1.3rem;
+    color: rgb(244, 244, 245);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navcontainer{
+    min-height: 50px;
+    width: 100%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    position: relative;
+    
+}
+
+#logoname{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+}
+nav{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.navitem{
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.b2 img{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s linear 0s;
+}
+
+.b2:hover{
+    transform: scale(1.3);
+    box-shadow: 2px 2px 15px black;
+}
+
+.b2{
+    position: relative;
+    /* overflow: hidden; */
+    transition: all 0.3s linear 0s;
+    border-radius: 10px;
+}
+
+.b2 .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 46, 46, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 0;
+}
+.b2:hover .overlay{
+    opacity: 1;
+    transition: all 0.3s linear 0s;
+}
+.b2 .overlay span{
+    color: white;
+    font-size: 1.2rem;
+}
+.box{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contentbox{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 0px 0px 30px black;
+    padding: 4rem;
+}
+
+.b1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.olclass
+{
+    margin-left: 20px;
+}

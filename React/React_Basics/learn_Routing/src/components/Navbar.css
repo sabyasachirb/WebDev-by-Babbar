@@ -1,0 +1,10 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    background-color: bisque;
+}
+
+.active{
+    border: 0.1rem solid gray;
+}

@@ -1,0 +1,9 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 100px;
+  background-color: bisque;
+}
